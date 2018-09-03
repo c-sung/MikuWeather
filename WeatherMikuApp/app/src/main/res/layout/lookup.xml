@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99DD00"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="可查詢地點：\n台北\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t雲林\n宜蘭\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t嘉義\n桃園\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t台南\n新竹\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t高雄\n苗栗\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t屏東\n台中\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t台東\n彰化\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t花蓮\n南投\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t澎湖\n基隆\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t金門\n連江"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_weight="0.01"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一步"
+            android:textSize="24dp" />
+    </LinearLayout>
+</LinearLayout>
